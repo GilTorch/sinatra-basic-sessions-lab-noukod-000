@@ -6,6 +6,7 @@ configure do
 end
 
 class App < Sinatra::Base
-  get '/' do 
+  get '/' do
+    erb :index
   end
 end
